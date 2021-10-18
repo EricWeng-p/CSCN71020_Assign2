@@ -18,7 +18,9 @@ namespace CSCN71020Assign2UnitTesting
 		TEST_METHOD(perimeterFunctionality) {
 			//This is testing the getPerimeter function using length 4, width 3 to get 4+4+3+3=14
 			int Result = 0;
-			Result = getPerimeter(4, 3);
+			int length = 4;
+			int width = 3;
+			Result = getPerimeter(length, width);
 			Assert::AreEqual(14, Result);
 		}
 
